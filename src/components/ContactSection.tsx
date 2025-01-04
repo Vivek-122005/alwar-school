@@ -61,7 +61,6 @@ export default function ContactSection() {
                 allowfullscreen=""
                 loading="lazy">
               </iframe>
-            </div>
           </div>
 
           <div className="bg-white rounded-lg shadow-lg p-6">
