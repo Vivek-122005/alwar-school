@@ -53,14 +53,13 @@ export default function ContactSection() {
             </div>
             
             <div className="rounded-lg overflow-hidden h-64">
-              <iframe
-                src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Shravasti+public+school+surya+nagar+alwar"
+              <iframe src="https://www.google.com/maps/place/Shravasti+public+school+surya+nagar+alwar/@27.5596971,76.6471665,17z/data=!3m1!4b1!4m6!3m5!1s0x39729753019bd6df:0x64b2596445927e86!8m2!3d27.5596971!4d76.6497414!16s%2Fg%2F11hd1mnhb0?hl=en&entry=ttu&g_ep=EgoyMDI1MDEwMS4wIKXMDSoASAFQAw%3D%3D"
                 width="100%"
                 height="100%"
-                style="border:0;"
-                allowfullscreen=""
-                loading="lazy">
-              </iframe>
+                style={{ border: 0 }}
+                loading="lazy"
+              ></iframe>
+            </div>
           </div>
 
           <div className="bg-white rounded-lg shadow-lg p-6">
